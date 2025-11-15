@@ -1,0 +1,188 @@
+/* =======================
+   Meowllow Theme CSS
+======================= */
+
+/* -----------------------
+   Purr Theme
+------------------------ */
+html[data-theme="purr"] {
+  /* Backgrounds */
+  --bg-crust: #201E27;
+  --bg-mantle: #24212B;
+  --bg-base: #2B2833;
+  --bg-surface0: #4A4557;
+  --bg-surface1: #5C586A;
+  --bg-surface2: #6E687D;
+
+  /* Text */
+  --text-main: #E6E0E9;
+  --text-sub0: #D9D4DE;
+  --text-sub1: #9B96A8;
+  --text-overlay0: #6E687D;
+
+  /* Accent colors */
+  --accent-peach: #F2B8B2;
+  --accent-mint: #A9DDBB;
+  --accent-cream: #F8EAA3;
+  --accent-peri: #B4C5ED;
+  --accent-pink: #F5C2E7;
+  --accent-lilac: #C7B0F0;
+  --accent-aqua: #A1E3E1;
+
+  /* Gradient for hero text */
+  --gradient-1: #B4C5ED;
+  --gradient-2: #F8EAA3;
+  --gradient-3: #F5C2E7;
+
+  background-color: var(--bg-base);
+  color: var(--text-main);
+}
+
+/* -----------------------
+   Slumber Theme
+------------------------ */
+html[data-theme="slumber"] {
+  /* Backgrounds */
+  --bg-crust: #1F1D25;
+  --bg-mantle: #242128;
+  --bg-base: #2a272e;
+  --bg-surface0: #4a4553;
+  --bg-surface1: #575268;
+  --bg-surface2: #6e6a86;
+
+  /* Text */
+  --text-main: #fdeadc;
+  --text-sub0: #d8d0c8;
+  --text-sub1: #9893AE;
+  --text-overlay0: #6e6a86;
+
+  /* Accent colors */
+  --accent-peach: #ee99a0;
+  --accent-mint: #a6d1a1;
+  --accent-cream: #f9e2af;
+  --accent-peri: #9fbce8;
+  --accent-pink: #f5bde6;
+  --accent-lilac: #c7b0f0;
+  --accent-aqua: #a8e0d3;
+
+  /* Gradient for hero text */
+  --gradient-1: #9fbce8;
+  --gradient-2: #f9e2af;
+  --gradient-3: #f5bde6;
+
+  background-color: var(--bg-base);
+  color: var(--text-main);
+}
+
+/* -----------------------
+   Sunbeam Theme
+------------------------ */
+html[data-theme="sunbeam"] {
+  /* Backgrounds */
+  --bg-crust: #F8F4F0;
+  --bg-mantle: #F9F6F2;
+  --bg-base: #FDFBF8;
+  --bg-surface0: #F2ECE4;
+  --bg-surface1: #E8E1DA;
+  --bg-surface2: #DFD8CF;
+
+  /* Text */
+  --text-main: #4C4843;
+  --text-sub0: #7C766F;
+  --text-sub1: #9C968E;
+  --text-overlay0: #B0A9A3;
+
+  /* Accent colors */
+  --accent-peach: #E88E86;
+  --accent-mint: #81B580;
+  --accent-cream: #E6B450;
+  --accent-peri: #7E9CD6;
+  --accent-pink: #E59BCF;
+  --accent-lilac: #AB91E4;
+  --accent-aqua: #7ECBC4;
+
+  /* Gradient for hero text */
+  --gradient-1: #7E9CD6;
+  --gradient-2: #E6B450;
+  --gradient-3: #E59BCF;
+
+  background-color: var(--bg-base);
+  color: var(--text-main);
+}
+
+/* =======================
+   Theme Switcher Buttons
+======================= */
+.theme-btn {
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  border-radius: 0.75rem;
+  transition: all 0.2s ease;
+}
+
+/* Purr theme switcher */
+html[data-theme="purr"] .theme-btn[data-flavor="purr"] {
+  background-color: #C7B0F0;
+  color: var(--bg-base);
+}
+html[data-theme="purr"] .theme-btn[data-flavor="slumber"] {
+  background-color: #EE9E97;
+  color: var(--bg-base);
+}
+html[data-theme="purr"] .theme-btn[data-flavor="sunbeam"] {
+  background-color: #7ECBC4;
+  color: var(--bg-base);
+}
+
+/* Slumber theme switcher */
+html[data-theme="slumber"] .theme-btn[data-flavor="purr"] {
+  background-color: #F8EAA3;
+  color: var(--bg-base);
+}
+html[data-theme="slumber"] .theme-btn[data-flavor="slumber"] {
+  background-color: #F5BDE6;
+  color: var(--bg-base);
+}
+html[data-theme="slumber"] .theme-btn[data-flavor="sunbeam"] {
+  background-color: #7090E0;
+  color: var(--bg-base);
+}
+
+/* Sunbeam theme switcher */
+html[data-theme="sunbeam"] .theme-btn[data-flavor="purr"] {
+  background-color: #F8EAA3;
+  color: var(--text-main);
+}
+html[data-theme="sunbeam"] .theme-btn[data-flavor="slumber"] {
+  background-color: #F5BDE6;
+  color: var(--text-main);
+}
+html[data-theme="sunbeam"] .theme-btn[data-flavor="sunbeam"] {
+  background-color: #7ECBC4;
+  color: var(--text-main);
+}
+
+/* Hover effect for all theme switcher buttons */
+.theme-btn:hover {
+  filter: brightness(110%);
+}
+
+/* =======================
+   Smooth Theme Transition
+======================= */
+body,
+h1,
+p,
+button,
+.card,
+header,
+footer,
+section {
+  transition: 
+    background-color 0.5s ease, 
+    color 0.5s ease, 
+    border-color 0.5s ease, 
+    background-image 0.5s ease;
+}
