@@ -1,3 +1,6 @@
 title: "Meowllow"
 description: "A soft, mellow, and soothing color theme inspired by creamy pastels and cozy coding sessions."
 markdown: kramdown
+
+url: "https://hxpe-dev.github.io"
+baseurl: "/Meowllow"
