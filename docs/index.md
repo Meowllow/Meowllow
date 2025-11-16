@@ -25,7 +25,7 @@ layout: default
 
     <!-- Flavors Button -->
     <div class="mt-6">
-      <a href="/flavors"
+      <a href="{{ '/flavors' | relative_url }}"
         class="inline-block px-6 py-3 text-white font-semibold rounded-lg shadow-lg
                 hover:brightness-110 transition-all duration-200"
         style="background-color: var(--bg-surface0); color: var(--text-main);">

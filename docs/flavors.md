@@ -5,6 +5,7 @@ permalink: /flavors
 ---
 
 <section class="max-w-6xl mx-auto py-16 px-6">
+    <h2 class="text-6xl font-bold mb-12 text-center" style="color: var(--text-main);">PAGE IN CREATION</h2>
     <h2 class="text-4xl font-bold mb-12 text-center" style="color: var(--text-main);">Meowllow Flavors</h2>
 
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
