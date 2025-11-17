@@ -81,7 +81,7 @@ layout: default
     margin: 0 0 0.75rem 0;
     font-size: clamp(2.5rem, 8vw, 8rem);
     line-height: 0.95;
-    background-image: linear-gradient(to right, var(--gradient-1), var(--gradient-2), var(--gradient-3));
+    background-image: linear-gradient(to right, var(--accents-peri), var(--accents-cream), var(--accents-pink));
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
@@ -155,15 +155,15 @@ layout: default
   }
 
   .dot-peach {
-    background: var(--accent-peach);
+    background: var(--accents-peach);
   }
 
   .dot-cream {
-    background: var(--accent-cream);
+    background: var(--accents-cream);
   }
 
   .dot-mint {
-    background: var(--accent-mint);
+    background: var(--accents-mint);
   }
 
   .terminal-host {
@@ -193,7 +193,7 @@ layout: default
     display: inline-block;
     width: 0.6ch;
     animation: blink 1s step-start infinite;
-    color: var(--accent-peri);
+    color: var(--accents-peri);
   }
 
   @keyframes blink {
@@ -217,7 +217,7 @@ layout: default
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
-    background-image: linear-gradient(to bottom, var(--gradient-1), var(--gradient-2), var(--gradient-3));
+    background-image: linear-gradient(to bottom, var(--accents-peri), var(--accents-cream), var(--accents-pink));
     font-size: clamp(2.5rem, 6vw, 6rem);
     line-height: 0.95;
     flex: 0 0 auto;
@@ -292,7 +292,7 @@ layout: default
       -webkit-background-clip: text !important;
       background-clip: text !important;
       color: transparent !important;
-      background-image: linear-gradient(to right, var(--gradient-1), var(--gradient-2), var(--gradient-3)) !important;
+      background-image: linear-gradient(to right, var(--accents-peri), var(--accents-cream), var(--accents-pink)) !important;
     }
 
     .cta {
@@ -332,11 +332,11 @@ layout: default
     const out = document.getElementById("terminal-output");
     const startupCursor = document.getElementById("terminal-cursor");
 
-    const accent1 = "var(--accent-peri)";
-    const accent2 = "var(--accent-cream)";
-    const accent3 = "var(--accent-pink)";
-    const accent4 = "var(--accent-mint)";
-    const accent5 = "var(--accent-aqua)";
+    const accent1 = "var(--accents-peri)";
+    const accent2 = "var(--accents-cream)";
+    const accent3 = "var(--accents-pink)";
+    const accent4 = "var(--accents-mint)";
+    const accent5 = "var(--accents-aqua)";
 
     out.innerHTML = "";
 

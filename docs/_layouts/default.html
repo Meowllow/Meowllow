@@ -6,19 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ page.title }} • {{ site.title }}</title>
 
-
     <!-- TailwindCSS -->
     <script src="https://cdn.tailwindcss.com"></script>
 
-
     <!-- Flavor CSS -->
-    <!-- <link rel="stylesheet" href="/assets/css/flavors.css"> -->
-
+    <link rel="stylesheet" href="{{ '/assets/css/flavors.css' | relative_url }}">
 
     <!-- Theme Switcher JS -->
-    <!-- <script src="/assets/js/theme.js" defer></script> -->
-
-    <link rel="stylesheet" href="{{ '/assets/css/flavors.css' | relative_url }}">
     <script src="{{ '/assets/js/theme.js' | relative_url }}" defer></script>
 </head>
 
@@ -37,5 +31,24 @@
 
 
 </body>
+
+<style>
+    /* Smooth theme transition */
+    body,
+    h1,
+    p,
+    button,
+    .card,
+    header,
+    footer,
+    section {
+        background-color: var(--bg-base);
+        transition:
+            background-color 0.5s ease,
+            color 0.5s ease,
+            border-color 0.5s ease,
+            background-image 0.5s ease;
+    }
+</style>
 
 </html>

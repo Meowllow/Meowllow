@@ -6,7 +6,7 @@ permalink: /flavors
 
 <!-- Flavors Page with Collapsible Theme Tables -->
 
-<section class="max-w-6xl mx-auto py-24 px-6">
+<section class="max-w-6xl mx-auto py-24 px-6" style="background-color: var(--bg-base);">
 
   <h2 class="text-4xl font-bold mb-12 text-center" style="color: var(--text-main);">
     Meowllow Flavors
@@ -27,7 +27,7 @@ permalink: /flavors
 }
 
 .flavor-details[open] {
-  border-color: var(--accent-peri);
+  border-color: var(--accents-peri);
 }
 
 /* Summary header */
@@ -98,7 +98,7 @@ permalink: /flavors
   top: -1.6rem;
   left: 50%;
   transform: translateX(-50%);
-  background: var(--accent-peri);
+  background: var(--accents-peri);
   color: var(--bg-base);
   padding: 0.2rem 0.45rem;
   font-size: 0.75rem;
@@ -115,7 +115,7 @@ permalink: /flavors
 }
 
 @keyframes copiedFlash {
-  from { background: var(--accent-peri); color: var(--bg-base); }
+  from { background: var(--accents-peri); color: var(--bg-base); }
   to   { background: transparent; }
 }
 </style>
