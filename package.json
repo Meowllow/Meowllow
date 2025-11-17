@@ -1,0 +1,30 @@
+{
+  "name": "meowllow",
+  "version": "1.0.0",
+  "description": "A soft, mellow, and soothing color theme inspired by creamy pastels and cozy coding sessions.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "build": "node src/build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hxpe-dev/Meowllow.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/hxpe-dev/Meowllow/issues"
+  },
+  "homepage": "https://github.com/hxpe-dev/Meowllow#readme",
+  "dependencies": {
+    "@babel/runtime": "^7.28.4",
+    "fs-extra": "^11.3.2",
+    "js-yaml": "^4.1.1",
+    "json-url": "^4.0.0"
+  }
+}
