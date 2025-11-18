@@ -1,0 +1,30 @@
+{
+  "name": "meowllow",
+  "displayName": "Meowllow for VSCode",
+  "description": "A soft, mellow, and soothing color theme inspired by creamy pastels and cozy coding sessions.",
+  "version": "0.0.1",
+  "publisher": "hxpe-dev",
+  "engines": {
+    "vscode": "^1.50.0"
+  },
+  "categories": ["Themes"],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Meowllow Purr",
+        "uiTheme": "vs-dark",
+        "path": "./meowllow-purr.json"
+      },
+      {
+        "label": "Meowllow Slumber",
+        "uiTheme": "vs-dark",
+        "path": "./meowllow-slumber.json"
+      },
+      {
+        "label": "Meowllow Sunbeam",
+        "uiTheme": "vs",
+        "path": "./meowllow-sunbeam.json"
+      }
+    ]
+  }
+}

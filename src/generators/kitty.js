@@ -21,8 +21,7 @@ function buildKittyConfig(flavor, p) {
     aqua: lighten(acc.aqua, 0.20),
   };
 
-  return `
-# vim:ft=kitty
+  return `# vim:ft=kitty
 
 ## name:     Meowllow ${flavor}
 ## author:   hxpe-dev
