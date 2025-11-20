@@ -18,7 +18,6 @@ function buildTheme(flavor, c) {
   const bg = c.bg;
   const text = c.text;
   const acc = c.accents;
-  const ui = c.ui || {};
 
   const isLightTheme = isLight(bg.base);
   const type = isLightTheme ? "light" : "dark";
@@ -39,9 +38,9 @@ function buildTheme(flavor, c) {
 
     "editor.selectionBackground": selection,
     "editor.selectionHighlightBackground": highlight,
-    "editor.findMatchBackground": hexWithAlpha(acc.cream || ui.accentBright || acc.peach, 0.22),
+    "editor.findMatchBackground": hexWithAlpha(acc.cream || acc.glimmer || acc.peach, 0.22),
     "editor.findMatchHighlightBackground": hexWithAlpha(acc.accentBright || acc.peri, 0.16),
-    "editor.wordHighlightBackground": hexWithAlpha(acc.mint || ui.hint, 0.12),
+    "editor.wordHighlightBackground": hexWithAlpha(acc.mint || acc.leaflight, 0.12),
     "editor.wordHighlightStrongBackground": hexWithAlpha(acc.peach, 0.12),
 
     "editorBracketMatch.background": hexWithAlpha(acc.peri, 0.12),
@@ -49,7 +48,7 @@ function buildTheme(flavor, c) {
 
     "editorGutter.modifiedBackground": acc.mint,
     "editorGutter.addedBackground": acc.mint,
-    "editorGutter.deletedBackground": ui.error || "#E06C75",
+    "editorGutter.deletedBackground": acc.ember || "#E06C75",
 
     "activityBar.background": bg.crust,
     "activityBar.foreground": text.sub0,
@@ -81,10 +80,10 @@ function buildTheme(flavor, c) {
     "input.foreground": text.main,
 
     // diagnostics
-    "editorError.foreground": ui.error || "#F26868",
-    "editorWarning.foreground": ui.warning || "#E6B85A",
-    "editorInfo.foreground": ui.info || acc.peri,
-    "editorHint.foreground": ui.hint || acc.mint,
+    "editorError.foreground": acc.ember || "#F26868",
+    "editorWarning.foreground": acc.honey || "#E6B85A",
+    "editorInfo.foreground": acc.skybell || acc.peri,
+    "editorHint.foreground": acc.leaflight || acc.mint,
   };
 
   // token colors (textmate scopes)

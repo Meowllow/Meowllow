@@ -18,12 +18,12 @@ html[data-theme="purr"] {
   --accents-pink: #F5C2E7;
   --accents-lilac: #BFA8F6;
   --accents-aqua: #8EE8E4;
-  --ui-error: #F26D6D;
-  --ui-warning: #E6B85A;
-  --ui-info: #6EA6F6;
-  --ui-hint: #A9DDBB;
-  --ui-muted: #3B3740;
-  --ui-accentBright: #CDE8F2;
+  --accents-ember: #F26D6D;
+  --accents-honey: #E6B85A;
+  --accents-skybell: #6EA6F6;
+  --accents-leaflight: #A9DDBB;
+  --accents-ash: #3B3740;
+  --accents-glimmer: #CDE8F2;
 }
 
 html[data-theme="slumber"] {
@@ -44,12 +44,12 @@ html[data-theme="slumber"] {
   --accents-pink: #F5BDE6;
   --accents-lilac: #C7B0F0;
   --accents-aqua: #99E1C9;
-  --ui-error: #E46A6A;
-  --ui-warning: #E5B76E;
-  --ui-info: #7FA6F7;
-  --ui-hint: #A6D1A1;
-  --ui-muted: #3B3640;
-  --ui-accentBright: #CFEFF0;
+  --accents-ember: #E46A6A;
+  --accents-honey: #E5B76E;
+  --accents-skybell: #7FA6F7;
+  --accents-leaflight: #A6D1A1;
+  --accents-ash: #3B3640;
+  --accents-glimmer: #CFEFF0;
 }
 
 html[data-theme="sunbeam"] {
@@ -70,11 +70,11 @@ html[data-theme="sunbeam"] {
   --accents-pink: #E59BCF;
   --accents-lilac: #AB91E4;
   --accents-aqua: #5EC2B8;
-  --ui-error: #C94B4B;
-  --ui-warning: #C98939;
-  --ui-info: #5279C6;
-  --ui-hint: #81B580;
-  --ui-muted: #DDD7D1;
-  --ui-accentBright: #FFF3E1;
+  --accents-ember: #C94B4B;
+  --accents-honey: #C98939;
+  --accents-skybell: #5279C6;
+  --accents-leaflight: #81B580;
+  --accents-ash: #DDD7D1;
+  --accents-glimmer: #FFF3E1;
 }
 

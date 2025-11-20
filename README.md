@@ -12,6 +12,7 @@ Here is a list of them:
 
 - [Kitty](/kitty/)
 - [Firefox](/firefox/)
+- [VSCode](/vscode/)
 
 ---
 

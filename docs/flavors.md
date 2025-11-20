@@ -146,13 +146,12 @@ const flavors = {
       "Pink": "#F5C2E7",
       "Lilac": "#BFA8F6",
       "Aqua": "#8EE8E4",
-
-      "Error": "#F26D6D",
-      "Warning": "#E6B85A",
-      "Info": "#6EA6F6",
-      "Hint": "#A9DDBB",
-      "Muted": "#3B3740",
-      "Accent Bright": "#CDE8F2",
+      "Ember": "#F26D6D",
+      "Honey": "#E6B85A",
+      "Skybell": "#6EA6F6",
+      "Leaflight": "#A9DDBB",
+      "Ash": "#3B3740",
+      "Glimmer": "#CDE8F2",
     }
   },
 
@@ -178,13 +177,12 @@ const flavors = {
       "Pink": "#F5BDE6",
       "Lilac": "#C7B0F0",
       "Aqua": "#99E1C9",
-
-      "Error": "#E46A6A",
-      "Warning": "#E5B76E",
-      "Info": "#7FA6F7",
-      "Hint": "#A6D1A1",
-      "Muted": "#3B3640",
-      "Accent Bright": "#CFEFF0",
+      "Ember": "#E46A6A",
+      "Honey": "#E5B76E",
+      "Skybell": "#7FA6F7",
+      "Leaflight": "#A6D1A1",
+      "Ash": "#3B3640",
+      "Glimmer": "#CFEFF0",
     }
   },
 
@@ -210,13 +208,12 @@ const flavors = {
       "Pink": "#E59BCF",
       "Lilac": "#AB91E4",
       "Aqua": "#5EC2B8",
-
-      "Error": "#C94B4B",
-      "Warning": "#C98939",
-      "Info": "#5279C6",
-      "Hint": "#81B580",
-      "Muted": "#DDD7D1",
-      "Accent Bright": "#FFF3E1",
+      "Ember": "#C94B4B",
+      "Honey": "#C98939",
+      "Skybell": "#5279C6",
+      "Leaflight": "#81B580",
+      "Ash": "#DDD7D1",
+      "Glimmer": "#FFF3E1",
     }
   }
 };

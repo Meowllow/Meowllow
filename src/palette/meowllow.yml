@@ -19,13 +19,12 @@ purr:
     pink:     "#F5C2E7"
     lilac:    "#BFA8F6"
     aqua:     "#8EE8E4"
-  ui:
-    error:    "#F26D6D"
-    warning:  "#E6B85A"
-    info:     "#6EA6F6"
-    hint:     "#A9DDBB"
-    muted:    "#3B3740"
-    accentBright: "#CDE8F2"
+    ember:       "#F26D6D"
+    honey:   "#E6B85A"
+    skybell:     "#6EA6F6"
+    leaflight:   "#A9DDBB"
+    ash:         "#3B3740"
+    glimmer:     "#CDE8F2"
 
 slumber:
   bg:
@@ -48,13 +47,12 @@ slumber:
     pink:     "#F5BDE6"
     lilac:    "#C7B0F0"
     aqua:     "#99E1C9"
-  ui:
-    error:    "#E46A6A"
-    warning:  "#E5B76E"
-    info:     "#7FA6F7"
-    hint:     "#A6D1A1"
-    muted:    "#3B3640"
-    accentBright: "#CFEFF0"
+    ember:       "#E46A6A"
+    honey:   "#E5B76E"
+    skybell:     "#7FA6F7"
+    leaflight:   "#A6D1A1"
+    ash:         "#3B3640"
+    glimmer:     "#CFEFF0"
 
 sunbeam:
   bg:
@@ -77,10 +75,9 @@ sunbeam:
     pink:     "#E59BCF"
     lilac:    "#AB91E4"
     aqua:     "#5EC2B8"
-  ui:
-    error:    "#C94B4B"
-    warning:  "#C98939"
-    info:     "#5279C6"
-    hint:     "#81B580"
-    muted:    "#DDD7D1"
-    accentBright: "#FFF3E1"
+    ember:       "#C94B4B"
+    honey:   "#C98939"
+    skybell:     "#5279C6"
+    leaflight:   "#81B580"
+    ash:         "#DDD7D1"
+    glimmer:     "#FFF3E1"
