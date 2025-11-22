@@ -1,6 +1,7 @@
 <h3 align="center">
-Meowllow
-</h1>
+  <img src="https://raw.githubusercontent.com/Meowllow/meowllow/main/assets/rounded-meowllow_1200x1200.png" width="98" alt="Logo"/><br/>
+	Meowllow
+</h3>
 
 <h6 align="center">
   <a href="https://github.com/Meowllow/Meowllow/blob/main/src/palette/meowllow.yml">Palette</a>
