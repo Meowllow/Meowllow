@@ -3,11 +3,11 @@ Meowllow
 </h1>
 
 <h6 align="center">
-  <a href="https://github.com/hxpe-dev/Meowllow/blob/main/src/palette/meowllow.yml">Palette</a>
+  <a href="https://github.com/Meowllow/Meowllow/blob/main/src/palette/meowllow.yml">Palette</a>
   ·
-  <a href="https://github.com/hxpe-dev/Meowllow#ports">Ports</a>
+  <a href="https://github.com/Meowllow/Meowllow#ports">Ports</a>
   ·
-  <a href="https://hxpe-dev.github.io/Meowllow/">Website</a>
+  <a href="https://meowllow.github.io/Meowllow/">Website</a>
   ·
   <a href="https://ko-fi.com/hxpedev">Donations</a>
 </h6>
@@ -26,9 +26,9 @@ Here is a list of them:
 - [Kitty](/kitty/)
 - [Firefox](/firefox/)
 - [VSCode](/vscode/)
-- [Neovim](/nvim/)
+- [Neovim](https://github.com/Meowllow/nvim)
 
 ---
 
 Made with ❤️ by [hxpe](https://github.com/hxpe-dev)  
-If you enjoy **Meowllow**, consider starring the [GitHub repository](https://github.com/hxpe-dev/meowllow)!
+If you enjoy **Meowllow**, consider starring the [GitHub repository](https://github.com/Meowllow/meowllow)!

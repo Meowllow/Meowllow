@@ -2,7 +2,7 @@ import fs from "fs-extra";
 import path from "path";
 
 export async function generateNvim(palette) {
-    const base = path.join("nvim");
+    const base = path.resolve("../MEOWLLOW/nvim");
     const colorsDir = path.join(base, "colors");
     const luaDir = path.join(base, "lua", "meowllow");
     const themesDir = path.join(luaDir, "themes");
