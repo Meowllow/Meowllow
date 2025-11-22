@@ -10,6 +10,8 @@ const hexToRgb = (hex) => {
 };
 
 export async function generateFirefox(palette) {
+  const outputPath = "../Firefox/README.md";
+
   let md = "# Meowllow for Firefox\n\n## Requirements\n";
   md += "First you need to install the [Firefox Color](https://addons.mozilla.org/en-US/firefox/addon/firefox-color/) extension.\n\n";
   md += "Then click on one of the links below depending on the theme you want.\n\n";
@@ -77,7 +79,6 @@ export async function generateFirefox(palette) {
     md += "\n";
   }
 
-  const outputPath = "firefox/README.md";
   await fs.writeFile(outputPath, md);
   console.log(`✓ Generated ${outputPath}`);
 }

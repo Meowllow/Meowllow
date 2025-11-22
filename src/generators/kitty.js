@@ -104,9 +104,8 @@ color15 ${text.main}
 
 export async function generateKitty(palette) {
   for (const [flavor, values] of Object.entries(palette)) {
+    const path = `../kitty/${flavor}.conf`;
     const output = buildKittyConfig(flavor, values);
-    // const path = `kitty-${flavor}.conf`; // Used for testing, generates in the root
-    const path = `kitty/${flavor}.conf`;
 
     await fs.ensureFile(path);
     await fs.writeFile(path, output);

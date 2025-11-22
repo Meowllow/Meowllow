@@ -23,9 +23,9 @@ A soft, mellow, and soothing color theme inspired by creamy pastels and cozy cod
 Meowllow is avaiable for multiple apps.
 Here is a list of them:
 
-- [Kitty](/kitty/)
-- [Firefox](/firefox/)
-- [VSCode](/vscode/)
+- [Kitty](https://github.com/Meowllow/kitty)
+- [Firefox](https://github.com/Meowllow/Firefox)
+- [VSCode](https://github.com/Meowllow/vscode)
 - [Neovim](https://github.com/Meowllow/nvim)
 
 ---

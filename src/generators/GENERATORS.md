@@ -3,6 +3,11 @@
 This file documents the purpose and output of each generator in the Meowllow project.  
 It helps maintain clarity about what each script does and where it outputs its results.
 
+> [!IMPORTANT]
+> Most generators output files into *other* Meowllow repositories.  
+> Make sure all Meowllow repositories are cloned into the **same parent folder**, or the generators will not be able to write their files.
+
+
 ---
 
 ## 0. Build Script (`build.js`)
@@ -37,7 +42,7 @@ It helps maintain clarity about what each script does and where it outputs its r
 **Function:** `generateKitty(palette)`
 
 - **Input:** `palette` object.
-- **Output:** `kitty/purr.conf`, `kitty/slumber.conf`, `kitty/sunbeam.conf`
+- **Output:** `../kitty/purr.conf`, `../kitty/slumber.conf`, `../kitty/sunbeam.conf`
 - **Description:**  
   Generates configuration files for the Kitty terminal for each flavor.  
   Sets foreground, background, cursor, selection, tab bar, marks, and ANSI colors.  
@@ -53,7 +58,7 @@ It helps maintain clarity about what each script does and where it outputs its r
 **Function:** `generateFirefox(palette)`
 
 - **Input:** `palette` object.
-- **Output:** `firefox/README.md`
+- **Output:** `../firefox/README.md`
 - **Description:**  
 Generates Markdown links for each flavor and accent to be used with the [Firefox Color](https://addons.mozilla.org/en-US/firefox/addon/firefox-color/) extension.  
 Links are compressed JSON using LZMA for Firefox Color.  
@@ -63,3 +68,32 @@ Each flavor is a section, each accent is a clickable link.
   import { generateFirefox } from "./generators/firefox.js";
   await generateFirefox(palette);
   ```
+
+## 4. VSCode Themes Generator (`vscode.js`)
+
+**Function:** `generateVSCodeThemes(palette)`
+
+- **Input:** `palette` object.
+- **Output:** `../vscode/meowllow-purr.json`, `../vscode/meowllow-slumber.json`, `../vscode/meowllow-sunbeam.json`
+- **Description:**  
+Generates json files used by the VSCode `package.json`.
+- **Usage:**  
+  ```js
+  import { generateVSCodeThemes } from "./generators/vscode.js";
+  await generateVSCodeThemes(palette);
+  ```
+
+## 5. Neovim Themes Generator (`nvim.js`)
+
+**Function:** `generateNvim(palette)`
+
+- **Input:** `palette` object.
+- **Output:** `NOT DONE YET, SEE CODE FOR MORE INFO` 
+- **Description:**  
+NOT DONE YET, SEE CODE FOR MORE INFO
+- **Usage:**  
+  ```js
+  import { generateNvim } from "./generators/nvim.js";
+  await generateNvim(palette);
+  ```
+

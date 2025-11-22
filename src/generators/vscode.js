@@ -2,7 +2,7 @@ import fs from "fs-extra";
 import path from "path";
 
 export async function generateVSCodeThemes(palette) {
-  const outDir = path.join("vscode");
+  const outDir = path.join("../vscode");
   await fs.ensureDir(outDir);
 
   for (const [flavor, colors] of Object.entries(palette)) {
