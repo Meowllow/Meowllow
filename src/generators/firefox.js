@@ -76,7 +76,7 @@ export async function generateFirefox(palette) {
       md += `- [${capitalize(accent)}](https://color.firefox.com/?theme=${url})\n`;
     }
 
-    md += "\n";
+    md += "\n---\nMade with ❤️ by [hxpe](https://github.com/hxpe-dev)\nIf you enjoy **Meowllow**, consider starring the [GitHub repository](https://github.com/Meowllow/meowllow)!"
   }
 
   await fs.writeFile(outputPath, md);
